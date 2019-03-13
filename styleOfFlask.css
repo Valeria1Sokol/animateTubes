@@ -1,7 +1,13 @@
 body
 {
     background-color: beige;
-    padding: 200px 40%;
+/*    padding: 200px 40%;*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 .container {
     display: flex;
@@ -326,8 +332,8 @@ body
     position: relative;
     width: 75px;
     height: 145px;
-    top: -140px;
-/*    left: 324px;*/
+    top: -125px;
+    left: -15px;
     opacity: 0.5;
 }
 
@@ -460,8 +466,6 @@ body
         flex-direction: row;
         width: 350px;
         height: 225px;
-        background-image: url(../../img/img_flask/bg.png);
-        background-repeat: no-repeat;
         background-size: 100%;
     }
 
@@ -477,13 +481,9 @@ body
     }
 
     .shadowFlask1 {
-        background: url(img_flask/test-tubes_shadow.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: absolute;
+        
         width: 125px;
         height: 130px;
-        top: 20px;
         left: 11px;
         opacity: 0.63;
     }
@@ -522,14 +522,10 @@ body
     }
 
     .shadowFlask2 {
-        background: url(img_flask/test-tubes2_shadow.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: absolute;
+       
         width: 165px;
         height: 140px;
-        top: 12px;
-        left: 123px;
+        top: -129px;
         opacity: 0.6;
     }
 
@@ -569,15 +565,11 @@ body
     }
 
     .shadowFlask3 {
-        background: url(img_flask/test-tubes3_shadow.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: absolute;
-        width: 75px;
-        height: 145px;
-        top: -3px;
-        left: 271px;
-        opacity: 0.5;
+       width: 75px;
+    height: 145px;
+    top: -129px;
+    left: -16px;
+    opacity: 0.5;
     }
 
     .bowl3 .inner3 {
